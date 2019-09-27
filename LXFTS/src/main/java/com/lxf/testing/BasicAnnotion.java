@@ -12,6 +12,10 @@ public class BasicAnnotion {
         System.out.println("这是测试用例1");
 
     }
+    @Test
+    public void testCase2(){
+        System.out.println("这是测试用例2");
+    }
     @BeforeMethod
     public void beforeMethod(){
         System.out.println("这是测试用例beforeMethod");
