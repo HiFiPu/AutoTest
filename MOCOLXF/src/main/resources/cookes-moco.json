@@ -1,0 +1,55 @@
+[
+  {
+    "description": "请求带cookes",
+    "request": {
+      "uri": "/kk",
+      "method": "get",
+      "cookies": {
+        "name": "nb"
+      }
+    },
+    "response": {
+      "text": "zidaicookies"
+    }
+  },
+  {
+    "description":"带头信息的请求",
+    "request":{
+      "method": "post",
+      "uri": "/lxf/success",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "cookies": {
+        "login": "tom"
+      },
+      "json": {
+        "name": "haha",
+        "sex": "women"
+      }
+    },
+    "response": {
+      "json":{
+        "ck": "jianjang",
+        "result": "success"
+      }
+    }
+  },
+  {
+    "description": "重定向",
+    "request": {
+      "uri": "/htv"
+    },
+    "redirectTo": "/lxf/lai"
+  },
+  {
+    "description": "被重定向",
+    "request": {
+      "uri": "/lxf/lai"
+    },
+    "response": {
+      "text": "success lxf"
+    }
+  }
+
+]

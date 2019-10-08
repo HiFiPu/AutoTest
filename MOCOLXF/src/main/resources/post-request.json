@@ -1,0 +1,26 @@
+[
+    {
+        "description":"描述一个post请求",
+        "request":{
+        "uri":"/lxf",
+        "method":"post"
+        },
+        "response":{
+        "text":"我爱你"
+        }
+    },
+    {
+        "description":"带参数的post请求",
+        "request":{
+            "uri":"/tom",
+            "method":"post",
+            "forms":{
+                "name":"lxf",
+                "sex":"man"
+            }
+        },
+        "response":{
+           "text":"post................"
+        }
+    }
+]

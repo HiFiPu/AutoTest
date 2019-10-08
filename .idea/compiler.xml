@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LXFTS" />
+        <module name="AutoTest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="LXFTS" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

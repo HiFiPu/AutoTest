@@ -1,0 +1,17 @@
+[
+  {
+    "request": {
+      "uri": "/"
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "success": false,
+        "message": {
+          "MessageType": "missing OR invalid",
+          "RecipientAddress": "invalid"
+        }
+      }
+    }
+  }
+]

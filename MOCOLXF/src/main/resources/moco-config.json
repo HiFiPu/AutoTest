@@ -1,0 +1,53 @@
+[
+  {
+    "request":{
+      "method":"get",
+      "uri":"/book_list"
+    },
+    "response":{
+      "json":{
+        "books":[
+          "python基础",
+          "李旭峰基础"
+        ]
+      }
+    }
+
+  },
+  {
+    "request":{
+      "method":"get",
+      "uri":"/book",
+      "queries":{
+        "book_name":"java_c"
+      }
+    },
+    "response":{
+      "json":{
+        "name":"java核心编程",
+        "price":50
+      }
+    }
+  },
+  {
+    "description": "这是一个带cookies的post请求",
+    "request": {
+      "method": "post",
+      "uri": "/success",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "lxfsuccess",
+        "result": "success"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "bookname": "beicanshijie",
+        "titile": "jianchi"
+      }
+    }
+  }
+]
